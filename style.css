@@ -1,0 +1,516 @@
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+/* SLIDER */
+
+.slider__block {
+    margin: 0 auto;
+    width: 900px;
+    height: 310px;
+    border-radius: 20px;
+    background-image: linear-gradient(#de6489, #bb6fc2);
+    margin-top: 40px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.slider__container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.slider__block_title {
+    color: white;
+    text-decoration: underline;
+    font-weight: 200;
+    top: 40px;
+    position: relative;
+    font-size: 25px;
+    letter-spacing: 0.05em;
+}
+
+.slider-carousel {
+    margin: 0 auto;
+    position: relative;
+    top: 60px;
+}
+
+.slider-carousel-icon {
+    width: 70px;
+    height: 70px;
+    background: white;
+    border-radius: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.slider-carousel img {
+    width: 40px;
+    margin: 0 auto;
+    top: 15px;
+    position: relative;
+}
+
+.slider-carousel-text {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.carousel-icon-title {
+    font-size: 30px;
+    color: white;
+    margin-top: 20px;
+}
+
+.carousel-icon-subtitle {
+    font-size: 20px;
+    color: white;
+}
+
+.slider__block p {
+    margin-bottom: 0rem;
+}
+
+.slider-counter {
+    position: absolute;
+    margin: 0 auto;
+    width: 25%;
+    height: 40px;
+    bottom: -20px;
+    background: white;
+    border-radius: 20px;
+    border: 2px solid #de6489;
+    left: 37%;
+}
+
+.slick-dots {
+    top: 198px !important;
+    z-index: 999;
+    text-align: center;
+}
+
+.slick-dots li button:before {
+    font-size: 16px;
+    color: #de6489!important;
+}
+
+.carousel-icon-subtitle {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.content {
+    width: 800px;
+    margin: 0 auto;
+    position: relative;
+    top: 130px;
+}
+
+.tariff-cards {
+    display: flex;
+    margin: 0 auto;
+}
+
+.tariff-card {
+    width: 33%;
+    height: 340px;
+    border: 2px solid #b0b0b0;
+    border-radius: 10px;
+    position: relative;
+    box-sizing: border-box;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.tariff-card:hover {
+    box-shadow: 0px 0px 15px rgb(0 0 0 / 20%);
+}
+
+.tariff-card-adv {
+    width: 70%;
+    height: 30px;
+    border-radius: 20px;
+    border: 2px solid #b0b0b0;
+    position: absolute;
+    top: -15px;
+    margin: 0 auto;
+    background: white;
+    color: #b0b0b0;
+    left: 15%;
+    text-align: center;
+}
+
+.tariff-card-mounth-count {
+    color: #b0b0b0;
+    font-size: 60px;
+    margin-bottom: 0rem;
+}
+
+.tariff-card-mounth {
+    color: #b0b0b0;
+    font-size: 25px;
+    position: relative;
+    bottom: 15px;
+}
+
+.tariff-card-info {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.tariff-card-price {
+    position: relative;
+    bottom: 10px;
+    text-align: center;
+}
+
+.tariff-card-price p {
+    margin-bottom: 0rem;
+}
+
+.tariff-card-price-cost {
+    font-size: 35px;
+    font-weight: 300;
+}
+
+.tariff-card-period {
+    color: #b0b0b0;
+    position: relative;
+    bottom: 5px;
+}
+
+.tariff-card-info p {
+    margin-bottom: 0rem;
+}
+
+.tariff-card-discount {
+    margin: 0 auto;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    background: #b0b0b0;
+    box-sizing: border-box;
+    padding-top: 13px;
+    color: white;
+    font-size: 20px;
+}
+
+.tariff-card-bottom-price {
+    color: #b0b0b0;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.center-card {
+    transform: translateY(-35px) scale(1.05);
+    z-index: 999;
+    background: white;
+    border: 2px solid #de6489;
+}
+
+.card-gradient {
+    color: #de6489;
+    border: 2px solid #de6489;
+}
+
+.text-gradient {
+    color: #de6489;
+}
+
+.card-gradient-discount {
+    background-image: linear-gradient(#de6489, #bb6fc2);
+}
+
+.cards-bottom-buy {
+    background-image: linear-gradient(#de6489, #bb6fc2);
+    color: white;
+    width: 350px;
+    margin: 0 auto;
+    border: none;
+    border-radius: 40px;
+    height: 45px;
+    font-weight: 200;
+    top: 50px;
+    position: relative;
+}
+
+.cards-bottom {
+    text-align: center;
+    width: 100%;
+}
+
+.info-block {
+    width: 900px;
+    border-top: 2px solid #b0b0b0;
+    border-bottom: 2px solid #b0b0b0;
+    margin: 0 auto;
+    top: 250px;
+    position: relative;
+}
+
+.info-block-content {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.info-block-content img {
+    width: 60px;
+    height: 60px;
+}
+
+.info-block-text {
+    font-weight: 200px;
+    width: 80%;
+    font-size: 20px;
+}
+
+.info-block-text span {
+    font-weight: 400;
+}
+
+.faq-section {
+    position: relative;
+    top: 300px !important;
+}
+
+.accordion-faq p {
+    line-height: 1.4 !important;
+}
+
+.update__title {
+    font-size: 30px !important;
+    text-decoration: underline;
+    margin: 0 auto;
+}
+
+.update {
+    position: relative;
+    top: 350px;
+    text-align: center;
+}
+
+.update-card {
+    display: flex;
+    justify-content: space-between;
+    width: 47%;
+    align-items: center;
+    margin-top: 40px;
+    text-align: left;
+}
+
+.update__cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card-gallery {
+    width: 10%;
+    height: auto;
+}
+
+.update-card p {
+    margin-bottom: 0rem;
+}
+
+.card-switch {
+    width: 60px;
+}
+
+.update-card-text {
+    width: 60%;
+}
+
+.update-card-text-title {
+    font-weight: 500;
+}
+
+.update-card-text-desc {
+    color: #b0b0b0;
+}
+
+.update__line {
+    width: 60%;
+    height: 2px;
+    background: #b0b0b0;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.info-block-question {
+    font-size: 30px;
+}
+
+.info_block_link {
+    color: #de6489;
+    font-size: 22px;
+    position: relative;
+    bottom: 10px;
+}
+
+.footer-block {
+    background: #EEEDED;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    color: #959595;
+    text-align: center;
+    position: relative;
+    top: 450px;
+}
+
+@media (max-width:872px) {
+    .slider__block {
+        width: 100%;
+    }
+    .content {
+        width: 90%;
+        margin: 0 auto;
+        position: relative;
+        top: 100px;
+    }
+    .update__cards {
+        display: block;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+    .update-card {
+        width: 80%;
+        margin: 0 auto !important;
+        margin-top: 40px !important;
+    }
+    .info-block {
+        width: 80%;
+        border-top: 2px solid #b0b0b0;
+        border-bottom: 2px solid #b0b0b0;
+        margin: 0 auto;
+        top: 250px;
+        position: relative;
+    }
+}
+
+@media (max-width: 768px) {
+    .content {
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+        top: 100px;
+    }
+    .info-block {
+        width: 80%;
+        border-top: 2px solid #b0b0b0;
+        border-bottom: 2px solid #b0b0b0;
+        margin: 0 auto;
+        top: 250px;
+        position: relative;
+    }
+}
+
+@media (max-width: 600px) {
+    .slider__block {
+        width: 100%;
+        height: 360px;
+    }
+    .slick-dots {
+        top: 245px !important;
+        z-index: 999;
+        text-align: center;
+    }
+    .slider-counter {
+        position: absolute;
+        margin: 0 auto;
+        width: 45%;
+        left: 27%;
+    }
+    .content {
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+        top: 100px;
+    }
+    .tariff-cards {
+        display: block;
+        margin: 0 auto;
+    }
+    .tariff-card {
+        width: 240px;
+        margin: 0 auto;
+        margin-bottom: 50px;
+        height: 340px;
+        border: 2px solid #b0b0b0;
+        border-radius: 10px;
+        position: relative;
+        box-sizing: border-box;
+        transition: 0.3s;
+        cursor: pointer;
+    }
+    .center-card {
+        height: 340px;
+        transform: translateY(0) scale(1);
+    }
+    .info-block-content {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 490px) {
+    .slider__block_title {
+        font-size: 20px;
+    }
+    .carousel-icon-title {
+        font-size: 25px !important;
+    }
+    .slider__container {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .carousel-icon-subtitle {
+        font-size: 18px;
+    }
+    .slick-dots {
+        top: 253px !important;
+        z-index: 999;
+        text-align: center;
+    }
+}
+
+@media (max-width: 415px) {
+    .carousel-icon-title {
+        font-size: 22px;
+    }
+    .carousel-icon-subtitle {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+    .slider-counter {
+        position: absolute;
+        margin: 0 auto;
+        width: 60% !important;
+        left: 20%;
+    }
+    .info-block-text {
+        font-weight: 200px;
+        width: 80%;
+        font-size: 16px;
+    }
+    .info-block-content {
+        align-items: center;
+    }
+}
