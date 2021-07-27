@@ -21,3 +21,18 @@ $('.tariff-card').click(function() {
     $(this).find('.tariff-card-adv').addClass('tariff-card-adv-active')
     $(this).find('.tariff-card-discount').addClass('card-gradient-discount-active')
 })
+
+$(document).ready(function() { //Carousel launch
+    $('.popup-window-slider').slick({
+        autoplay: true,
+        dots: true
+    });
+});
+$('#popup-test').click(function() { //When you click on #testButton, show the window
+    $('.popup-window').css('opacity', '1');
+    $('.popup-window').css('transform', 'scale(1)')
+})
+$('.popup-close').click(function() { //When you click on .popup-close, close the window
+    $('.popup-window').css('opacity', '0');
+    $('.popup-window').css('transform', 'scale(0)')
+})
