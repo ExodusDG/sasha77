@@ -128,28 +128,28 @@
     cursor: pointer;
 }
 
-.tariff-card:hover {
-    transform: translateY(-40px) scale(1.05);
-    border: 2px solid #bb6fc2;
-    box-shadow: 0px 0px 15px rgb(0 0 0 / 20%);
-    z-index: 999;
+.tariff-card-active {
+    transform: translateY(-40px) scale(1.05) !important;
+    border: 2px solid #bb6fc2 !important;
+    box-shadow: 0px 0px 15px rgb(0 0 0 / 20%) !important;
+    z-index: 999 !important;
 }
 
-.tariff-card:hover .tariff-card-mounth-count {
-    color: #bb6fc2;
+.tariff-card-mounth-count-active {
+    color: #bb6fc2 !important;
 }
 
-.tariff-card:hover .tariff-card-mounth {
-    color: #bb6fc2;
+.tariff-card-mounth-active {
+    color: #bb6fc2 !important;
 }
 
-.tariff-card:hover .tariff-card-adv {
-    border: 2px solid #bb6fc2;
-    color: #bb6fc2;
+.tariff-card-adv-active {
+    border: 2px solid #bb6fc2 !important;
+    color: #bb6fc2 !important;
 }
 
-.tariff-card:hover .card-gradient-discount {
-    background: linear-gradient(#de6489, #bb6fc2);
+.card-gradient-discount-active {
+    background: linear-gradient(#de6489, #bb6fc2) !important;
 }
 
 .tariff-card-adv {
