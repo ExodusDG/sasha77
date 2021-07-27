@@ -5,6 +5,98 @@
 }
 
 
+/*POPUP WINDOW*/
+
+.popup-window {
+    position: fixed;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    top: 20vh;
+    left: calc((100vw - 400px)/2);
+    margin: 0 auto;
+    z-index: 999;
+    width: 400px;
+    background: #0f0f0fd5;
+    border-radius: 10px;
+    color: white;
+    overflow: hidden;
+    transform: scale(0);
+    transition: 0.3s;
+    opacity: 0;
+}
+
+.popup-window p {
+    margin-bottom: 0rem;
+}
+
+.popup-text-title {
+    font-weight: 300;
+    font-size: 28px;
+}
+
+.popup-text-desc {
+    width: 100%;
+    font-size: 18px;
+    margin: 0 auto;
+    line-height: 35px;
+}
+
+.popup-window-slider {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.window-slider-item img {
+    width: 60px !important;
+    margin: 0 auto;
+}
+
+.popup-slider-title {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.popup-window-slider>.slick-dots {
+    bottom: 0 !important;
+    position: relative !important;
+    color: white !important;
+}
+
+.slick-track {
+    display: flex;
+}
+
+.popup-slider-desc {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.popup-button {
+    background: linear-gradient(#de6489, #bb6fc2);
+    color: white;
+    width: 70%;
+    height: 50px;
+    border-radius: 40px;
+    border: none;
+    font-weight: 200;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+.popup-close {
+    cursor: pointer;
+}
+
+.slick-dots li button:before {
+    color: white !important;
+    font-size: 15px !important;
+}
+
+
+/*END*/
+
+
 /* SLIDER */
 
 .slider__block {
@@ -88,13 +180,13 @@
     left: 37%;
 }
 
-.slick-dots {
+.slider-carousel>.slick-dots {
     top: 215px !important;
     z-index: 999;
     text-align: center;
 }
 
-.slick-dots li button:before {
+.slider-carousel>.slick-dots li button:before {
     font-size: 16px;
     color: #de6489!important;
 }
@@ -226,8 +318,11 @@
 
 .tariff-card-bottom-price {
     color: #b0b0b0;
-    margin-top: 20px;
+    margin-top: 0px;
     text-align: center;
+    position: absolute;
+    bottom: 0px;
+    left: 35%;
 }
 
 .center-card {
@@ -446,7 +541,7 @@
         width: 100%;
         height: 360px;
     }
-    .slick-dots {
+    .slider-carousel>.slick-dots {
         top: 245px !important;
         z-index: 999;
         text-align: center;
@@ -506,10 +601,14 @@
     .carousel-icon-subtitle {
         font-size: 18px;
     }
-    .slick-dots {
+    .slider-carousel>.slick-dots {
         top: 253px !important;
         z-index: 999;
         text-align: center;
+    }
+    .popup-window {
+        width: 90vw;
+        left: calc((100vw - 90vw)/2);
     }
 }
 
