@@ -12,6 +12,12 @@
     padding: 20px;
 }
 
+.join__step-counter {
+    background: linear-gradient(45deg, #b274bd 50%, #cf6b89);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .container {
     max-width: 1140px;
     width: 100%;
@@ -68,7 +74,7 @@
 }
 
 .join_block {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .join__interes button {
