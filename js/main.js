@@ -1,6 +1,35 @@
 $(document).ready(function() {
+
+    $('.avatar_slider').slick({
+        dots: true,
+        autoplay: true
+    });
+
+    $('.email__choise').on("mousewheel", function(e, delta) {
+        this.scrollLeft -= (delta);
+        e.preventDefault();
+    });
+
+    /* JOIN PAGE */
+
+    $('.buttons_gender > button').click(function() {
+        $('.buttons_gender > button').removeClass('join_button-active')
+        $(this).addClass('join_button-active')
+    })
+
+    $('.buttons_status > button').click(function() {
+        $('.buttons_status > button').removeClass('join_button-active')
+        $(this).addClass('join_button-active')
+    })
+
+    $('.buttons_interes > button').click(function() {
+        $('.buttons_interes > button').removeClass('join_button-active')
+        $(this).addClass('join_button-active')
+    })
+
     $('.slider-carousel').slick({
-        dots: true
+        dots: true,
+        autoplay: true
     });
 });
 
@@ -20,19 +49,4 @@ $('.tariff-card').click(function() {
     $(this).find('.tariff-card-mounth').addClass('tariff-card-mounth-active')
     $(this).find('.tariff-card-adv').addClass('tariff-card-adv-active')
     $(this).find('.tariff-card-discount').addClass('card-gradient-discount-active')
-})
-
-$(document).ready(function() { //Carousel launch
-    $('.popup-window-slider').slick({
-        autoplay: true,
-        dots: true
-    });
-});
-$('#popup-test').click(function() { //When you click on #testButton, show the window
-    $('.popup-window').css('opacity', '1');
-    $('.popup-window').css('transform', 'scale(1)')
-})
-$('.popup-close').click(function() { //When you click on .popup-close, close the window
-    $('.popup-window').css('opacity', '0');
-    $('.popup-window').css('transform', 'scale(0)')
 })
