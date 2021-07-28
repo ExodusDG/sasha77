@@ -55,8 +55,8 @@
 }
 
 .join_button-active {
-    background: linear-gradient(#de6489, #bb6fc2) !important;
-    color: white;
+    border: 1px solid #cf6b89 !important;
+    color: #cf6b89;
 }
 
 .join_buttons {
